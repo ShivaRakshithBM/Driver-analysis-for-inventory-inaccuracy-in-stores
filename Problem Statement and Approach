@@ -1,4 +1,4 @@
-Problem Statement and Approach:
+Problem Statement:
 
 Initial State:
 ~5 Million dollars worth of inaccuracy in stores are happening due to the end to end processes happening in stores
@@ -12,5 +12,33 @@ Questions:
 
 Approach:
 
-Followed the 
+Followed the below 6 stage framework.
 
+Business understanding:
+
+1) There aer many E2E processes which happens in the stores which might be potential factors for inaccuracy of products
+2) The stores consist of employee related and customer related actions. The sales in the stores vary on different times of the day and during different days of the week
+3) The future vision is to achieve 97% availability in the stores 
+
+Data understanding
+
+1) The dataset consists of 750 instances, from a subset of 3 stores, 10 products across 30 days of time as thhe pilot phase
+2) The data includes both numeric as well as binary attributes. HAd about 10 features
+
+Data Preperation:
+
+1) Normaliation: I had to get all the variables into a standard range and give equal weightage to all of them in our driver identification. I have implemented the min-max normalization
+2) Blank / Null Value treatment: Replaced all the Blank / Null values with 0, as this was appropriate in the business situation 
+
+Modelling:
+Have implemented Linear Regression modelling technique
+
+
+Evaluation:
+1) I have used Cross validation of 10 folds. The model has been implemented to hold out data sets. 
+2) Have used the metric Root Mean Square Error (RMSE) to evaluate the difference of Actual and predicted number of shares
+3) Baseline - We took the mean number of shares for the articles at the categoruy of the article and then leveraged RMSE for comparison
+
+Deployment:
+1) The analysis ccan be used by deploying thhe same in Mashable. Multiple users can access if its on a cloud sharing platform like AWS or R server
+2) It can also be automated so that on a daily basis when the data changes, the predictions can be produced and used. We can connect the model to the platform from where the data is stored
