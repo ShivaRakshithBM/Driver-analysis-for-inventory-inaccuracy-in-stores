@@ -34,7 +34,7 @@ Modelling:
 Have implemented Linear Regression modelling technique
 
 Evaluation:
-Have used the p-value, R square value and adjusted R square values which were obtained during the models building process. As a standard all the p values lesser than 0.05 are considered significant.
+Have used the p-value, R square value and adjusted R square values which were obtained during the models building process. As a standard all the drivers, with p values lesser than 0.05, are considered significant.
 
 Deployment (Next Steps):
 Extend the project to more stores and more products. This will give a better picture about the inaccuracy happening in the stores.
