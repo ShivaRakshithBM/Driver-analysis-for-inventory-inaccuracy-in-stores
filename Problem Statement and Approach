@@ -33,12 +33,9 @@ Data Preperation:
 Modelling:
 Have implemented Linear Regression modelling technique
 
-
 Evaluation:
-1) I have used Cross validation of 10 folds. The model has been implemented to hold out data sets. 
-2) Have used the metric Root Mean Square Error (RMSE) to evaluate the difference of Actual and predicted number of shares
-3) Baseline - We took the mean number of shares for the articles at the categoruy of the article and then leveraged RMSE for comparison
+Have used the p-value, R square value and adjusted R square values which were obtained during the models building process. As a standard all the p values lesser than 0.05 are considered significant.
 
-Deployment:
-1) The analysis ccan be used by deploying thhe same in Mashable. Multiple users can access if its on a cloud sharing platform like AWS or R server
-2) It can also be automated so that on a daily basis when the data changes, the predictions can be produced and used. We can connect the model to the platform from where the data is stored
+Deployment (Next Steps):
+Extend the project to more stores and more products. This will give a better picture about the inaccuracy happening in the stores.
+
