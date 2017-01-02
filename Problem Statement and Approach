@@ -39,3 +39,6 @@ Have used the p-value, R square value and adjusted R square values which were ob
 Deployment (Next Steps):
 Extend the project to more stores and more products. This will give a better picture about the inaccuracy happening in the stores.
 
+Learnings:
+1) General idea about Linear Regression modelling 
+2) Preparation of data for the Linear Regression modelling 
